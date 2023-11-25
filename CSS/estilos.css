@@ -14,15 +14,13 @@ h1{
     font-family:'Vollkorn', serif !important ;
 }
 nav
-
 .mainindex{
-    background: linear-gradient(300deg, white, green);
     padding-top: 5%;
 }
 
 .tituloPrincipal{
-    font-family: 'Vollkorn', serif !important;
-}
+   font-family: 'Vollkorn', serif !important;
+} 
 
 .encabezado{
     display: flex;
@@ -117,6 +115,7 @@ nav
 .pieDeFoto{
     margin-top: 20%;
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 @media screen and (min-width: 800px){
@@ -140,6 +139,14 @@ nav
     .imagen{
         margin-left: 20%;
     }
+    .seccionCartas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content:space-around;
+        padding-right: 10%;
+
+    }
 }
 
 @media screen and (min-width: 1300px){
@@ -158,14 +165,7 @@ nav
     .imagen{
         margin-left:10%;
     }
-    .seccionCartas{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-content:space-around;
-        padding-right: 10%;
-
-    }
+    
 }    
 @media screen and (min-width: 1920px){
     .articuloindex{
